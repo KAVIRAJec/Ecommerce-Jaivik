@@ -1,0 +1,54 @@
+body {
+    background-color: #FFF1B7;
+    margin: 0;
+  }
+  
+  .header {
+    height: 10px;
+    width: 100%;
+    background-color: #282c34;
+    display: flex;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .product-name,
+  nav {
+    display: flex;
+    align-items: center;
+    flex: auto;
+    margin-bottom: 0;
+  }
+  
+  .signin {
+    margin-left: -300px;
+    margin-right: 50px;
+  }
+  
+  .logo {
+    height: 120px;
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+    padding: 3px;
+  }

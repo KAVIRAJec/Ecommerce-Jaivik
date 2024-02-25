@@ -1,0 +1,171 @@
+body {
+  background-color: #FFF1B7;
+  margin: 0;
+}
+.user-details {
+  display: flex;
+  direction: row;
+  align-items: center;
+  margin-top: 200px;
+  justify-content: center;
+  margin-right: 55px;
+}
+.usericon {
+  width: 60px;
+  height: 60px;
+  margin-left:50px;
+}
+.uploaded-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 50px;
+  border: 2px solid #fff;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.h2{
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-size: 30px;
+
+}
+.h3 {
+  margin-top: 0px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.account-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -150px;
+}
+.account-button1 {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 10px;
+  position: center;
+  font-size: 30px;
+  margin-left: 150px;
+}
+.account-button2 {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 10px;
+  position: center;
+  font-size: 30px;
+  margin-left: 150px;
+}
+.account-button3 {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 10px;
+  position: center;
+  font-size: 30px;
+  margin-left: 150px;
+}
+.account-button4 {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #ffa75a 0, #d74926 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    margin-left: 150px;
+  }
+  .account-button4 :focus {
+    box-shadow: #e0573c 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #e04c3c 0 -3px 0 inset;
+  }
+  
+  .account-button4 :hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(241, 47, 41, 0.3) 0 7px 13px -3px, #e0573c 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .account-button4 :active {
+    box-shadow: #e0523c 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+.account-button1:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #333;
+  transition: width 0.3s;
+}
+
+.account-button1:hover:after {
+  width: 100%;
+}
+.account-button2:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #333;
+  transition: width 0.3s;
+}
+
+.account-button2:hover:after {
+  width: 100%;
+}
+.account-button3:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #333;
+  transition: width 0.3s;
+}
+
+.account-button3:hover:after {
+  width: 100%;
+}
+.arrow-image1,.arrow-image2,.arrow-image3{
+  width: 30px; /* Adjust the width based on your design */
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 472px;
+}
+.arrow-image2{
+  width: 30px; /* Adjust the width based on your design */
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 450px;
+}
+.arrow-image3{
+  width: 30px; /* Adjust the width based on your design */
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 557px;
+}
